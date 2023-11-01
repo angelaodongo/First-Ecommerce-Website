@@ -1,0 +1,203 @@
+/*Logo*/
+
+.logo{
+    width:120px;
+}
+
+/*Navigation Bar*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: #800022;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0; 
+    left: 0;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Raleway';
+    color:#cbb26a;
+    transition: 0.3s ease;
+}
+
+
+#navbar li a:hover,
+#navbar li a.active{
+    color:darkgoldenrod;
+}
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height:2px;
+    background:darkgoldenrod;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    transition: 0.3s ease;
+}
+
+
+
+/*Home Page*/
+#hero{
+    background-image: url(https://images.unsplash.com/photo-1607577851365-2fa14a644a56?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 90vh;
+    width: 1125px;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+    color:darkgoldenrod;
+}
+
+
+#hero h4{
+    padding-bottom: 20px;
+    font-family: 'Lobster Two';
+    font-size: 30px;
+}
+
+
+#hero h1{
+    color:#ffcda2;
+}
+
+
+#hero button{
+    background-color:#cbb26a;
+    font-size: 20px;
+    font-family: 'Lobster Two';
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+    transition: 0.6s ease;
+}
+
+
+#hero button:hover{
+    background-color:#ffcda2;
+    color:#800022;
+    transition: 0.6s ease;
+}
+
+
+#hero button a{
+    text-decoration:none;
+    color:black;
+    transition:0.6s ease;
+}
+
+
+#hero button a:hover{
+    color: #800022;
+    transition: 0.6s ease;
+}
+
+
+.color{
+    background-color: #800022;
+    opacity:80%;
+    border-radius: 50px;
+    padding: 30px;
+    transition: 0.6s ease;
+}
+
+
+.color:hover{
+    opacity: 1;
+    transition: opacity 0.6s ease;
+}
+
+
+#feature .fe-box h6{
+    font-size: 20px;
+    font-family: 'Lobster Two';
+    color: #800022;
+    padding:9px 8px 6px 8px;
+    line-height:1;
+    border-radius:4px;
+    display:inline-block;
+}
+
+
+.section-p1{
+    padding: 40px 50px;
+    color:#800022;
+}
+
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#feature .fe-box{
+    width:180px;
+    text-align:center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 15px;
+    background-color: #ffcda2;
+    border-radius:10px;
+    margin: 15px 0;
+    transition: 0.6s ease;
+}
+
+
+#feature .fe-box:hover{
+    box-shadow: 20px 10px 54px;
+    transition: 0.6s ease;
+}
+
+
+#feature .fe-box img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Shop Page */
+
+
+/* Blog Page */
+
+
+/* About Page */
+
+
+/* Contact page */
+
+
+/* Cart  */
